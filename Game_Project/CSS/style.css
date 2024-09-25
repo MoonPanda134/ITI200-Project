@@ -1,0 +1,41 @@
+.menu{
+    text-align: center;
+}
+.menu body{
+    text-align: justify;
+}
+
+#login input{
+    margin: 25px;
+}
+.login{
+    text-align: center;
+}
+.login button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    color: aqua;
+    border-color: aqua;
+}
+.login button:hover{
+    background-color: blue;
+    color: black;
+    border-color: blue;
+}
+
+
+.about{
+    text-align: center;
+}
+
+
+.info{
+    text-align: center;
+}
+
+
+.load{
+    text-align: center;
+}
+
