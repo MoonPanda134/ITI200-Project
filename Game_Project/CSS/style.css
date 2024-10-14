@@ -39,3 +39,17 @@
     text-align: center;
 }
 
+
+#contact{
+    text-align: center;
+}
+
+
+#dialog{
+    padding: 50px;
+    background-color: lightgray;
+}
+#dialog :hover{
+    padding: 50px;
+    background-color: grey;
+}
