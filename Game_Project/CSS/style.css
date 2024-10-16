@@ -2,16 +2,18 @@
 
 .menu{
     text-align: center;
+    background-color: antiquewhite;
 }
 .menu body{
     text-align: justify;
+    
 }
 
-#login input{
-    margin: 25px;
-}
+
+/* AKA - index.html */
 .login{
     text-align: center;
+    background-color: antiquewhite;
 }
 .login button{
     margin-top: 50px;
@@ -25,20 +27,31 @@
     color: black;
     border-color: blue;
 }
+#login input{
+    margin: 25px;
+}
 
 
 .about{
     text-align: center;
+    background-color: antiquewhite;
 }
 
 
 .info{
     text-align: center;
+    background-color: antiquewhite;
 }
 
 
 .load{
     text-align: center;
+}
+
+.temp{
+    color: black;
+    text-align: center;
+    background-color: antiquewhite;
 }
 
 
