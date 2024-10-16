@@ -11,22 +11,56 @@
 </head>
 
 <body id="contact">
-    <h1>Contact Us</h1>
-    <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="menu.html">Scripted Sorcery</a>
 
-    </div>
-    <div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gameInfo.html">Game Info</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dev Tools-Previews</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../locations/castle.html">Castle</a></li>
+                        <li><a class="dropdown-item" href="../locations/cave.html">Cave</a></li>
+                        <li><a class="dropdown-item" href="../locations/forest.html">Forest</a></li>
+                        <li><a class="dropdown-item" href="../locations/gate.html">Gate</a></li>
+                        <li><a class="dropdown-item" href="../locations/home.html">Home</a></li>
+                        <li><a class="dropdown-item" href="../locations/village.html">Village</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
         <form>
-            <label>Email</label>
-            <input type="text" maxlength="5" class="form-control">
-            <label>Question, Comment, Help, etc.</label>
-            <textarea rows="6" class="form-control"></textarea>
-            <button type="button" id="Submit" class="form-control">Submit</button>
+            <div class="m-5">
+                <div class="col-5">
+                    <h1>Contact Us</h1>
+                    <label>Email address</label><br/>
+                    <input type="email" class="form-control" style="width: 800px;" placeholder="name@example.com">
+                </div>
+                <div class="col-5">
+                    <label>Question, Comment, etc.</label>
+                    <textarea class="form-control" style="width: 800px;" rows="6"></textarea>
+                </div>
+                <div class="col-5">
+                    <button type="button" id="Submit" class="button">Submit</button>
+                    <p><h3><a href="menu.html"><button type="button" class="button"><- Back</button></a></h3></p>
+                </div>
+                
+            </div>
+            
         </form>
         
-        <p>
-            <h3><a href="menu.html">Back</a></h3>
-        </p>
+        
     </div>
     <script src="../../Javascript/contactUs.js"></script>
 </body>
