@@ -1,4 +1,16 @@
+@font-face {
+    font-family: "Angel-Tears";
+    src: url("./fonts/Angel-Tears.otf");
+  }
+
 /* Start of Classes */
+
+.title{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Angel-Tears';
+    font-size: 120px;
+}
 
 .menu{
     text-align: center;
@@ -14,6 +26,7 @@
 .login{
     text-align: center;
     background-color: antiquewhite;
+    font-family: fantasy;
 }
 .login button{
     margin-top: 50px;
@@ -97,3 +110,4 @@
     padding: 50px;
     background-color: grey;
 }
+
