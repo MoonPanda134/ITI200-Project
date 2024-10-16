@@ -1,3 +1,5 @@
+/* Start of Classes */
+
 .menu{
     text-align: center;
 }
@@ -40,11 +42,40 @@
 }
 
 
+
+/* Start of ID's */
+
+
 #contact{
     text-align: center;
 }
 
 
+
+/* background images */
+#castle{
+    background-image: url(../Images/Castle\ 1.jpeg);
+}
+#cave{
+    background-image: url(../Images/Cave\ 1.jpeg);
+}
+#forest{
+    background-image: url(../Images/Forest\ 1.jpeg);
+}
+#gate{
+    background-image: url(../Images/Gate\ 12.jpg);
+}
+#home{
+    background-image: url(../Images/Home\ 1.jpeg);
+}
+#village{
+    background-image: url(../Images/Village\ 1.jpeg);
+}
+
+
+
+
+/* Text Dialogue Popups */
 #dialog{
     padding: 50px;
     background-color: lightgray;
