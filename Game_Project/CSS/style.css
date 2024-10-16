@@ -116,6 +116,11 @@
 }
 #gate{
     background-image: url(../Images/Gate\ 12.jpg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: 75% 100%;
+    background-color: black;
 }
 #home{
     background-image: url(../Images/Home\ 1.jpeg);
