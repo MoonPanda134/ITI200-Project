@@ -21,24 +21,29 @@
     
 }
 
+.button{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 52px, 160px;
+    font-size: 24px;
+    background-color: white;
+    color: green;
+    border-color: green;
+}
+.button:hover{
+    background-color: lime;
+    color: black;
+    border-color: lime;
+}
+.menu button{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /* AKA - index.html */
 .login{
     text-align: center;
     background-color: antiquewhite;
-    font-family: fantasy;
-}
-.login button{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: white;
-    color: aqua;
-    border-color: aqua;
-}
-.login button:hover{
-    background-color: blue;
-    color: black;
-    border-color: blue;
 }
 #login input{
     margin: 25px;
@@ -48,6 +53,10 @@
 .about{
     text-align: center;
     background-color: antiquewhite;
+}
+.about button{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -67,6 +76,19 @@
     background-color: antiquewhite;
 }
 
+.setup{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.input-group{
+    text-align: center;
+}
+
+.input-group>input.width {
+    text-align: center;
+    flex: 0 1 200px;
+}
 
 
 /* Start of ID's */
@@ -74,8 +96,11 @@
 
 #contact{
     text-align: center;
+    background-color: antiquewhite;
 }
-
+#width{
+    flex: 0 1 100px;
+}
 
 
 /* background images */
