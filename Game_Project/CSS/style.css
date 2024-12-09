@@ -184,6 +184,14 @@
     background-size: 75% 100%;
     background-color: black;
 }
+#end-of-current-key{
+    background-image: url(../Images/KeyGate.jpeg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: 75% 100%;
+    background-color: black;
+}
 
 
 
