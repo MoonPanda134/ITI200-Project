@@ -247,7 +247,7 @@ inside your html file.
   /* position style and default z */
   position: fixed;
   z-index: 10;
-  overflow: show; }
+  overflow: visible; }
 
 /* game div with background image*/
 .rpgui-container.framed {
