@@ -136,6 +136,14 @@
     background-size: 75% 100%;
     background-color: black;
 }
+#map{
+    background-image: url(../Images/Map.jpg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: 75% 100%;
+    background-color: black;
+}
 #cave{
     background-image: url(../Images/Cave\ 1.jpeg);
     background-repeat: no-repeat;
