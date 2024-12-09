@@ -10,6 +10,34 @@
     <link href="CSS/dist/rpgui.css" rel="stylesheet" type="text/css">
     <script src="CSS/dist/rpgui.js"></script>
     <title>Sign In</title>
+    <style> 
+        body.login { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            flex-direction: column;
+        } 
+        .rpgui-container { 
+            text-align: center;
+            padding: 20px;
+            width: auto;
+        }
+        .rpgui-content { 
+            width: 100%; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            gap: 20px;
+        } 
+        .rpgui-content p, .rpgui-content h3 { 
+            width: 100%; 
+            text-align: center;
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body class="login">
@@ -43,26 +71,26 @@
             </ul>
         </div>
     </nav>
-    <h1>Account Login</h1>
-    <p>
-    <h3 class="p-3">Enter Credentials</h3>
-    <form method="dialog">
-        <div id="login">
-            <label>Username</label><br />
-            <input type="text">
-        </div>
-        <div id="login">
-            <label>Password</label><br />
-            <input type="password">
-        </div>
-        <a href="html/menu/menu.html"><button type="button" class="button">Sign In</button></a>
-    </form>
-    </p>
-    <p>
-        <br />
-        Don't have an account?
-    <h3><a href="html/menu/accountSetup.html"><button type="button" class="button">Create Account</button></a></h3>
-    </p>
-</body>
+    <div class="rpgui-content">
+        <div class="rpgui-container framed-golden">
+            <h1>Account Login</h1>
+            <p>
+            <h3 class="p-3">Enter Credentials</h3>
+            <form method="dialog">
+                <div id="login">
+                    <label>Username</label><br />
+                    <input type="text">
+                </div>
+                <div id="login">
+                    <label>Password</label><br />
+                    <input type="password">
+                </div>
+                <a href="html/menu/menu.html"><button type="button" class="button">Sign In</button></a>
+            </form> 
+        </div> 
+            <p> Don't have an account? </p> 
+            <h3><a href="html/menu/accountSetup.html"><button type="button" class="button">Create Account</button></a></h3>
+    </div>
+</body> 
 
 </html>
