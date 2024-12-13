@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const Pool = require('pg').Pool
 const app = express();
 
-app.use(express.static('public'))
+app.use(express.static('Game_Project'))
 app.use(bodyParser.json());
 
 
